@@ -1,0 +1,66 @@
+.container-fondo {
+
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(to right, #243B55, #141E30);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.form-account-container {
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    padding: 30px;
+    border-radius: 20px;
+    position: relative;
+    top: 70%;
+    left: 50%;
+    height: auto;
+    min-width: 30vh;
+    max-width: 80vw;
+    transform: translate(-50%, -50%);
+    
+
+
+}
+
+.form-account-container button{
+
+    position: absolute;
+    left: 50%;
+
+}
+
+.login-container button {
+    width: 60px;
+    height: 60px;
+}
+
+.container-boton {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    right: 5%;
+    bottom: 7%;
+    margin: 0 auto;
+}
+
+
+.container-nav {
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(50px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    z-index: 1000;
+}
