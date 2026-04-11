@@ -1,0 +1,30 @@
+:root {
+    --background-color: rgb(70, 70, 70);
+    --black-color: rgb(44, 44, 44);
+}
+
+
+
+
+
+
+body {
+
+    background-color: var(--background-color);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.container-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px var(--black-color);
+}
+
+.navbar h1{
+    color: blue;
+}
+
