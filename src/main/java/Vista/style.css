@@ -3,11 +3,6 @@
     --black-color: rgb(44, 44, 44);
 }
 
-
-
-
-
-
 body {
 
     background-color: var(--background-color);
@@ -24,7 +19,7 @@ body {
     box-shadow: 5px 5px 15px var(--black-color);
 }
 
-.navbar h1{
-    color: blue;
+.navbar-brand {
+    font-family: f;
 }
 

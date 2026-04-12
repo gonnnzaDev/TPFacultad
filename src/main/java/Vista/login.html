@@ -6,37 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+          integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div>
+<div>
 
-        <div class="position-absolute top-50 start-50 translate-middle ">
-            <div class="container-content">
-                <h1>Iniciar Sesion</h1>
-                <div class="input-group mb-3">
-                    <span class="input-group-text" id="inputGroup-sizing-default">Usuario</span>
-                    <input type="text" class="form-control" aria-label="Sizing example input"
-                        aria-describedby="inputGroup-sizing-default">
-                </div>
+    <div class="position-absolute top-50 start-50 translate-middle ">
+        <div class="container-content">
+            <h1>Iniciar Sesion</h1>
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-default">Usuario</span>
+                <input type="text" class="form-control" aria-label="Sizing example input"
+                       aria-describedby="inputGroup-sizing-default">
+            </div>
 
-                <div class="input-group mb-3">
-                    <span class="input-group-text" id="inputGroup-sizing-default">Contraseña</span>
-                    <input type="password" class="form-control" aria-label="Sizing example input"
-                        aria-describedby="inputGroup-sizing-default">
-                </div>
-                 <div class="position-absolute bottom-0 end-0">
-                    <button class="btn btn-primary">Crear Cuenta</button>
-                </div>
-                <div class="position-absolute bottom-0 end-0">
-                    <button class="btn btn-primary">Login</button>
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-default">Contraseña</span>
+                <input type="password" class="form-control" aria-label="Sizing example input"
+                       aria-describedby="inputGroup-sizing-default">
+            </div>
+            <div class="botones">
+
+                <div>
+                    <button class="btn btn-primary" onclick="window.location.href='/index.html'">Login</button>
+                    <button class="btn btn-primary" onclick="window.location.href='/registrar.html'">Crear
+                        Cuenta</button>
                 </div>
             </div>
         </div>
     </div>
+</div>
 
 
 
@@ -46,7 +48,7 @@
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
 
